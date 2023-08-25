@@ -2,23 +2,35 @@ OnStep Telescope Controller
 ===========================
 # Modification notes
 Fork of release-4.24
+
 Work in progress.
+
 Configuration (eventually) intended for Keen-One derivative.
 
 17HS15-1684S-PG27 specs:
+
 Rated current: 1.68A
+
 Gear ratio: 26.85:1
+
 Step angle w/out gearbox: 1.80° (200 steps/rotation)
 
 Harmonic drive (Luke_3D variant V5) specs:
+
 Gear ratio: 79:1
 
 Controller:
+
 WeMos D1 R32 w/ CNC v3
+
 Stepper driver: DRV8825 (for now, possibly LV8729 later)
+
 Driver current guideline w/heatsink: 1.5A
+
 Rs: 0.1Ω
+
 Vref: 0.84 (motor max), 0.756 (motor 90%), 0.75 (driver max), 0.675 (driver 90%)
+
 Max microstep resolution: 1/32
 
 ===========================
