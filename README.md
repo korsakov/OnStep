@@ -23,7 +23,19 @@ Controller:
 
 WeMos D1 R32 w/ CNC v3
 
-Stepper driver: DRV8825 (for now, possibly LV8729 later)
+
+Config for LV8729
+
+Driver current max w/heatsink: 1.5A, default 0.8A
+
+Rs: 0.1Ω
+
+Vref: 0.675 (driver 90%)
+
+Microstep resolution: 1/32 (for convenience)
+
+
+Config for DRV8825
 
 Driver current guideline w/heatsink: 1.5A
 
@@ -32,6 +44,7 @@ Rs: 0.1Ω
 Vref: 0.84 (motor max), 0.756 (motor 90%), 0.75 (driver max), 0.675 (driver 90%)
 
 Max microstep resolution: 1/32
+
 
 ===========================
 # Important Note
